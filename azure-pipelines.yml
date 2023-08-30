@@ -15,7 +15,7 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo "====$(Pipeline.Workspace)====="
+    echo "===$(Pipeline.Workspace)==="
     echo $(Pipeline.Workspace)
   displayName: 'Run a multi-line script'
 - task: NeuVectorScan@3
