@@ -20,10 +20,10 @@ steps:
   displayName: 'Run a multi-line script'
 - task: NeuVectorScan@3
   inputs:
+- task: NeuVectorScan@3
+  inputs:
     scanType: 'standalone'
     nvContainerRegistry: 'nvlab docker hub'
     nvRepository: 'neuvector/scanner'
     nvTag: 'latest'
     containerRegistry: 'lsong docker hub'
-    repository: 'songlongtj/alpine'
-    tag: '3.6'
