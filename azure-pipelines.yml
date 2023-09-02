@@ -25,5 +25,5 @@ steps:
     nvRepository: 'neuvector/scanner'
     nvTag: 'latest'
     containerRegistry: 'lsong docker hub'
-    repository: 'songlongtj/alpine'
-    tag: '3.6'
+    repository: 'alpine'
+    tag: '3.10'
