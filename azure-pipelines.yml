@@ -18,7 +18,7 @@ steps:
     echo "===$(Pipeline.Workspace)==="
     echo $(Pipeline.Workspace)
   displayName: 'Run a multi-line script'
-- task: NeuVectorScan@3
+- task: NeuVectorScan1@4
   inputs:
     scanType: 'standalone'
     nvContainerRegistry: 'nvlab docker hub'
