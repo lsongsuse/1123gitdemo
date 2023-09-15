@@ -18,12 +18,12 @@ steps:
     echo "===$(Pipeline.Workspace)==="
     echo $(Pipeline.Workspace)
   displayName: 'Run a multi-line script'
-- task: NeuVectorScan1@4
+- task: NeuVectorScan@3
   inputs:
     scanType: 'standalone'
-    nvContainerRegistry: 'nvlab docker hub'
-    nvRepository: 'neuvector/scanner'
-    nvTag: 'latest'
+    nvContainerRegistry: 'lsong docker hub'
+    nvRepository: 'songlongtj/scanner'
+    nvTag: '2183'
     containerRegistry: 'lsong docker hub'
     repository: 'songlongtj/alpine'
     tag: '3.10'
