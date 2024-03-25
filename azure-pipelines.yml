@@ -6,9 +6,6 @@
 trigger:
 - main
 
-pool:
-  name: k8s
-
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
